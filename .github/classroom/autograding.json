@@ -1,0 +1,54 @@
+{
+  "tests": [
+    {
+      "name": "Test 1",
+      "setup": "javac ./src/*.java",
+      "run": "cd ./src && java Main",
+      "input": "123",
+      "output": "6",
+      "comparison": "included",
+      "timeout": 10,
+      "points": null
+    },
+    {
+      "name": "Test 2",
+      "setup": "javac ./src/*.java",
+      "run": "cd ./src && java Main",
+      "input": "555",
+      "output": "15",
+      "comparison": "included",
+      "timeout": 10,
+      "points": null
+    },
+    {
+      "name": "Test 3",
+      "setup": "javac ./src/*.java",
+      "run": "cd ./src && java Main",
+      "input": "639",
+      "output": "18",
+      "comparison": "included",
+      "timeout": 10,
+      "points": null
+    },
+    {
+      "name": "Test 4",
+      "setup": "javac ./src/*.java",
+      "run": "cd ./src && java Main",
+      "input": "798",
+      "output": "24",
+      "comparison": "included",
+      "timeout": 10,
+      "points": null
+    },
+    {
+      "name": "Test 5",
+      "setup": "javac ./src/*.java",
+      "run": "cd ./src && java Main",
+      "input": "803",
+      "output": "11",
+      "comparison": "included",
+      "timeout": 10,
+      "points": null
+    }
+  ]
+}
